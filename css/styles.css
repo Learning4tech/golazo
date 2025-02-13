@@ -1,0 +1,65 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Table styling */
+.table {
+  margin-top: 30px;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+/* Chart styling */
+canvas {
+  margin-top: 30px;
+  max-width: 100%;
+  height: 400px !important;
+}
+
+/* Filters Section */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  font-weight: bold;
+}
+
+.filters select, .filters input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .filters {
+    display: block;
+  }
+
+  .filters select,
+  .filters input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .table {
+    font-size: 14px;
+  }
+}
