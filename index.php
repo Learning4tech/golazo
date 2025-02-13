@@ -4,7 +4,31 @@ require 'database.php';
 include 'header.php';  // Incluir la cabecera (header)
 ?>
 
+<style>
+    .logo-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .logo-img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .logo-img {
+            max-width: 100px;
+        }
+    }
+</style>
+
 <div class="container my-4">
+    <!-- Logo en la esquina superior derecha -->
+    <div class="logo-container">
+        <img src="golazo.png" alt="Logo Golazo" class="logo-img">
+    </div>
+
     <!-- Descripción del Proyecto -->
     <div class="jumbotron text-center">
         <h1>Bienvenido al Proyecto Golazo SL</h1>
